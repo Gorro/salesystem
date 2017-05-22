@@ -30,7 +30,7 @@ class MostrarController extends Controller
         return redirect(URL::route('login_page'));
     }
     public function insertClient(){
-        return view('salesystem.cliente_angular');
+        return view('salesystem.cliente');
     }
     public function viewClients(){
         return view('salesystem.ver_cliente');
